@@ -8,10 +8,10 @@
   </head>
   <body>
 
-    <div id="list-mail" v-for ="email in emailList">
-      
+    <div id="list-mail">
+
     <ul>
-      <li>Le email sono:{{email}}</li>
+      <li v-for ="email in emailList">Le email sono:{{email}}</li>
     </ul>
     </div>
 
